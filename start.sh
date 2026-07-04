@@ -51,10 +51,13 @@ echo "  Test Account:"
 echo "    Email:    test@travel.com"
 echo "    Password: Test1234"
 echo ""
-echo "  Press Ctrl+C to stop both servers"
+echo "  Press Ctrl+C to stop both servers and other sources hii my name is soumyadeep hello bose jan and how are you"
 echo "============================================"
 
 # Keep script alive and handle cleanup
 trap "echo ''; echo 'Stopping servers...'; kill $BACKEND_PID $FRONTEND_PID 2>/dev/null; echo 'Done.'; exit 0" SIGINT SIGTERM
 
 wait
+
+
+#hello boss how are you ?
